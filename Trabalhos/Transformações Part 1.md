@@ -1,12 +1,4 @@
 ---
-aliases:
-  - trab2
-  - part1
-tags:
-  - ALA/trabalho
-date: 2023-08-30
-time: 13:11
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 ### Nome: Pedro Henrique Honorio Saito
 

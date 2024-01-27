@@ -1,11 +1,3 @@
----
-aliases:
-  - base
-  - mudanca_vetores
-tags:
-  - ALA
-date: 2023-09-29
-time: 16:17
 complete: true
 ---
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$

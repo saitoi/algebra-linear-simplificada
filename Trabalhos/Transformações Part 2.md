@@ -1,11 +1,3 @@
----
-aliases:
-  - trab3
-  - part2
-tags:
-  - Exercícios
-date: 2023-09-11
-time: 13:26
 complete:
 ---
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$

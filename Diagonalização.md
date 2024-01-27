@@ -1,19 +1,8 @@
----
-aliases:
-  - diagonalizacao
-tags:
-  - ALA
-  - P3
-date: 2023-10-16
-time: 18:43
-complete:
----
-$\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Diagonalização
 ### $\texttt{}$
 > $\textit{Definição.}$ Refere-se à transformação de uma matriz em sua forma diagonal.
 
-- [i] De antemão, precisamos relembrar do conceito de <ins>matriz diagonal</ins>, isto é, uma matriz quadrada em que todos os elementos fora da diagonal principal são nulos. Por exemplo, considere a matriz diagonal $A$ descrita abaixo.
+De antemão, precisamos relembrar do conceito de <ins>matriz diagonal</ins>, isto é, uma matriz quadrada em que todos os elementos fora da diagonal principal são nulos. Por exemplo, considere a matriz diagonal $A$ descrita abaixo.
 $$
 \begin{align}
 A=\mycolv{-1 & 0 \\0 & 1}

@@ -1,11 +1,3 @@
----
-aliases:
-  - lista_inversa
-  - lista_nucleo
-tags:
-  - Exercícios
-date: 2023-09-21
-time: 21:12
 complete:
 ---
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$

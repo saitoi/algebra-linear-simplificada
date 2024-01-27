@@ -1,11 +1,3 @@
----
-aliases:
-  - collier_teoremas
-tags:
-  - ALA/tabela
-date: 2023-08-19
-time: 12:18
----
 
 # Tabela de Axiomas e Teoremas
 

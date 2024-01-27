@@ -1,12 +1,4 @@
 ---
-aliases:
-  - projection
-tags:
-  - ALA/Operadores
-date: 2023-08-30
-time: 17:00
-complete: true
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Projeção
  

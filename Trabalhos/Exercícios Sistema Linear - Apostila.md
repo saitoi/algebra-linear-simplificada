@@ -1,11 +1,3 @@
----
-aliases: 
-tags:
-  - ALA
-date: 2023-10-18
-time: 18:27
-complete:
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Exercícios Sistema Linear - Apostila
 

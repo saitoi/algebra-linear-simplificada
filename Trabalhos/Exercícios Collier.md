@@ -1,11 +1,3 @@
----
-aliases: 
-tags:
-  - Exercícios
-date: 2023-09-16
-time: 14:42
-complete:
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # $\texttt{Exercícios Collier.}$
 

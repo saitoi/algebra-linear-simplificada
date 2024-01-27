@@ -1,12 +1,4 @@
 ---
-aliases:
-  - ed_2
-tags:
-  - ALA/trabalho
-date: 2023-10-22
-time: 11:06
-complete:
----
 ### Nome: Pedro Henrique Honorio Saito
 ### DRE: 122149392
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$

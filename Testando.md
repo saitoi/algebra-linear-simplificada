@@ -1,11 +1,3 @@
----
-dg-home: true
-dg-publish: true
----
-$\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
-# Autovalores e Autovetores
-
-> $\textit{Definição.}$ Autovetores (ou $\textit{eigenvectors}$) se referem ao conjunto de vetores cuja direção não varia após uma transformação linear. Por outro lado, os autovalores (ou $\textit{eigenvalues}$) correspondem às grandezas escalares que descrevem o escalonamento dos autovetores após uma transformação.
 
 Seja $T$ um operador linear do plano. Um $\textit{autovetor}$ de $T$, associado ao $\textit{autovalor}\; \lambda \in\Bbb{R}$ é um vetor **não nulo** $v$ do plano que satisfaz a expressão.
 $$

@@ -1,12 +1,4 @@
 ---
-aliases:
-  - simulado_1
-tags:
-  - ALA
-date: 2023-09-19
-time: 08:53
-complete: true
----
 ### Nome: Pedro Henrique Honorio Saito
 ### DRE: 122149392
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$

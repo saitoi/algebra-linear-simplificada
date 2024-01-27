@@ -1,12 +1,4 @@
 ---
-aliases:
-  - linear
-  - transf
-tags:
-  - ALA
-date: 2023-08-26
-time: 13:14
----
 
 # Transformações Lineares
 

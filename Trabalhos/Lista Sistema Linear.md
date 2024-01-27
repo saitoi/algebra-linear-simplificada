@@ -1,11 +1,3 @@
----
-aliases:
-  - sistema_linear_resolucao
-  - lista_sistema_linear
-tags:
-  - Exercícios
-  - ALA
-date: 2023-10-09
 time: 08:56
 complete:
 ---

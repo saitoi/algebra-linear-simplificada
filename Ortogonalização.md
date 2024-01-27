@@ -1,12 +1,4 @@
 ---
-aliases:
-  - ortogonalizacao
-tags:
-  - ALA
-date: 2023-11-02
-time: 19:50
-complete:
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Ortogonalização
 

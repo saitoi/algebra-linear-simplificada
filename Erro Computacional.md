@@ -1,12 +1,4 @@
 ---
-aliases:
-  - erro
-tags:
-  - ALA
-date: 2023-10-23
-time: 16:46
-complete:
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Erro Computacional
 

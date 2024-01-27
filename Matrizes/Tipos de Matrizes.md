@@ -1,11 +1,3 @@
----
-aliases:
-  - especiais
-  - elementar
-  - ortogonal
-  - ortonormal
-  - tipos_matrizes
-tags:
   - ALA
 date: 2023-10-03
 time: 22:42

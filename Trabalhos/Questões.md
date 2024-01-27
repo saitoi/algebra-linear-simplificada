@@ -1,12 +1,4 @@
 ---
-aliases:
-  - questoes
-tags:
-  - Exercícios
-date: 2023-09-10
-time: 22:35
-complete:
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 ### Nome: Pedro Henrique Honorio Saito
 

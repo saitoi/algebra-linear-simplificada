@@ -1,12 +1,4 @@
 ---
-aliases:
-  - det
-tags:
-  - ALA
-date: 2023-09-17
-time: 11:09
-complete: false
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Determinante
 

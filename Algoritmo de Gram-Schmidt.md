@@ -1,13 +1,3 @@
----
-aliases:
-  - gram-schmidt
-tags:
-  - ALA
-  - P3
-date: 2023-11-22
-time: 18:56
-complete:
----
 # Algoritmo de Gram-Schmidt
 
 > **Definição:** Método empregada para a ortogonalização de um conjunto de vetores (LI) em um espaço vetorial, transformando-os em um conjunto de vetores ortogonais entre si.
@@ -18,7 +8,7 @@ Dado um conjunto de vetores linearmente independentes, o algoritmo de Gram-Schmi
 2. Em seguida, para cada vetor subsequente no conjunto, subtrai-se as projeções desse vetor nos vetores ortogonais já encontrados.
 3. Feito isso, normaliza-se cada um desses vetores resultantes para obter um conjunto ortonormal que representa o mesmo espaço vetorial original, porém com vetores mutuamente ortogonais e de magnitude unitária.
 
-$\textup{Algoritmo}$. *Dados vetores linearmente independentes $v_{1},\dots,v_{m}\in\Bbb{R}^{n}$, o algoritmo retorna uma base ortonormal do subespaço $\langle v_{1},\dots,v_{m} \rangle$*.
+Algoritmo. *Dados vetores linearmente independentes $v_{1},\dots,v_{m}\in\Bbb{R}^{n}$ , o algoritmo retorna uma base ortonormal do subespaço $\langle v_{1},\dots,v_{m} \rangle$*.
 
 ```c
 gramSchmidt(Lista base) {

@@ -1,12 +1,4 @@
 ---
-aliases: 
-tags:
-  - ALA
-  - P3
-date: 2023-11-01
-time: 21:04
-complete:
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Subespaços
 

@@ -1,11 +1,3 @@
----
-aliases: 
-tags:
-  - ALA
-date: 2023-11-30
-time: 08:32
-complete:
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # apagar
 

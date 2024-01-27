@@ -1,12 +1,4 @@
 ---
-aliases:
-  - metodo_de_potencia
-tags:
-  - ALA
-date: 2023-10-17
-time: 00:27
-complete:
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Métodos de Potência
 

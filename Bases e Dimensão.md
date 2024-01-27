@@ -1,14 +1,3 @@
----
-aliases:
-  - LI_LD
-tags:
-  - ALA
-  - P3
-date: 2023-11-25
-time: 13:31
-complete:
----
-$\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Bases e Dimensão
 
 > $\textit{Definição de Base.}$ *Um conjunto finito de geradores $\beta$ de um subespaço $U$ é uma base se nenhum de seus vetores pode ser escrito como combinação de linear*.

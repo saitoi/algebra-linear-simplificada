@@ -1,11 +1,3 @@
----
-aliases:
-  - gaussiana
-  - decomposicao_LU
-  - eliminacao_gaussiana
-  - substituicao_reversa
-tags:
-  - ALA
   - P3
 date: 2023-10-04
 time: 18:05

@@ -1,11 +1,3 @@
----
-aliases: 
-tags:
-  - ALA
-date: 2023-11-27
-time: 09:14
-complete:
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Estudo Dirigido Subespaços
 

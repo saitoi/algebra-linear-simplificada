@@ -1,11 +1,3 @@
----
-aliases:
-  - matrix_product
-  - multiplicacao_matriz
-tags:
-  - ALA
-date: 2023-09-11
-time: 08:21
 complete:
 ---
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$

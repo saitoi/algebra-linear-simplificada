@@ -1,12 +1,4 @@
 ---
-aliases:
-  - cisalhamento
-tags:
-  - ALA/Operadores
-date: 2023-09-11
-time: 20:27
-complete:
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Cisalhamento
 

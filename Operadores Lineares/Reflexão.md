@@ -1,11 +1,3 @@
----
-aliases:
-  - reflection
-  - reflexao
-tags:
-  - ALA/Operadores
-date: 2023-09-01
-time: 16:18
 complete: true
 ---
  $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$

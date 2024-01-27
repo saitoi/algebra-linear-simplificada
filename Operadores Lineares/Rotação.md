@@ -1,11 +1,3 @@
----
-aliases:
-  - rotation
-  - rotacao
-tags:
-  - ALA/Operadores
-date: 2023-09-05
-time: 16:15
 complete: true
 ---
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$

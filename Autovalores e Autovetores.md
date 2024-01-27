@@ -1,14 +1,3 @@
----
-aliases:
-  - auto
-tags:
-  - ALA
-  - P3
-date: 2023-09-18
-time: 22:31
-complete: true
----
- $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Autovalores e Autovetores
 
 > $\textit{Definição.}$ Autovetores (ou $\textit{eigenvectors}$) se referem ao conjunto de vetores cuja direção não varia após uma transformação linear. Por outro lado, os autovalores (ou $\textit{eigenvalues}$) correspondem às grandezas escalares que descrevem o escalonamento dos autovetores após uma transformação.
@@ -94,7 +83,7 @@ a_{21}x+(a_{22}-\lambda)y&=0
 $$
 Como já determinarmos $\lambda$, nos resta identificar $x,y$ que, usualmente, corresponde a um conjunto de vetores que satisfazem a expressão dada.
 
-- [i] Poderíamos também calcular os autovetores da seguinte forma
+Poderíamos também calcular os autovetores da seguinte forma
 $$
 \begin{align}
 \mycolv{a_{11} & a_{12} \\a_{21} & a_{22}}\mycolv{x \\y}=\mycolv{x \\y}\lambda_{1}\quad \text{e}\quad  \mycolv{a_{11} & a_{12} \\a_{21} & a_{22}}\mycolv{x \\y}=\mycolv{x \\y}\lambda_{2} 

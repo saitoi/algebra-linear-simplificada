@@ -1,12 +1,4 @@
 ---
-aliases:
-  - minimo_quadrados
-tags:
-  - ALA
-date: 2023-11-27
-time: 13:32
-complete:
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Método dos Mínimos Quadrados
 

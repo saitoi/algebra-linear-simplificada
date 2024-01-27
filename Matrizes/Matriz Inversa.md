@@ -1,12 +1,4 @@
 ---
-aliases:
-  - inverse
-tags:
-  - ALA
-date: 2023-09-20
-time: 19:52
-complete: true
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Matriz Inversa
 

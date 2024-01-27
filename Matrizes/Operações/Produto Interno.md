@@ -1,11 +1,3 @@
----
-aliases:
-  - escalar
-  - interno_produto
-tags:
-  - ALA/operações
-date: 2023-08-27
-time: 10:50
 complete: true
 ---
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$

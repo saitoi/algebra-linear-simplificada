@@ -1,12 +1,4 @@
 ---
-aliases:
-  - mudanca_operadores
-tags:
-  - ALA
-date: 2023-10-03
-time: 21:38
-complete: false
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Mudança de Base de Operadores
 

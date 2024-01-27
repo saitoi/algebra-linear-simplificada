@@ -1,11 +1,3 @@
----
-aliases:
-  - vectors
-  - esparsos
-tags:
-  - ALA/vetor
-date: 2023-08-15
-time: 13:40
 complete: true
 ---
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$

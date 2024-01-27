@@ -1,11 +1,3 @@
----
-aliases:
-  - homogeneo
-tags:
-  - ALA
-  - P3
-date: 2023-11-24
-time: 20:20
 complete:
 ---
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$

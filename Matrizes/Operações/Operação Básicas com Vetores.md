@@ -1,12 +1,4 @@
 ---
-aliases:
-  - operacoes
-tags:
-  - ALA/operações
-date: 2023-08-19
-time: 03:11
-complete: true
----
 
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Operação Básicas com Vetores

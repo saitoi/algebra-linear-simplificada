@@ -1,12 +1,4 @@
 ---
-aliases:
-  - espectral
-tags:
-  - ALA
-date: 2023-09-27
-time: 13:49
-complete: true
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Teorema Espectral
 
