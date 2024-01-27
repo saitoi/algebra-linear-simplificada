@@ -1,0 +1,239 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{2023-08-19}
+
+\begin{document}
+
+\hypertarget{nome-pedro-henrique-honorio-saito}{%
+\subsubsection{Nome: Pedro Henrique Honorio
+Saito}\label{nome-pedro-henrique-honorio-saito}}
+
+\hypertarget{dre-122149392}{%
+\subsubsection{DRE: 122149392}\label{dre-122149392}}
+
+\hypertarget{vetores-e-produto-interno---resoluuxe7uxe3o}{%
+\section{Vetores e Produto Interno -
+Resolução}\label{vetores-e-produto-interno---resoluuxe7uxe3o}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Tomando como referência a expressão para o produto interno:
+  \(\langle v_1|v_2\rangle=a_1a_2+b_1b_2\) , utilizaremos a seguinte
+  notação para a composição dos vetores no plano: \[
+  \begin{flalign*}
+  v_1&=(a_1,b_1) \\
+  v_2&=(a_2,b_2) \\
+  u&=(a_3,b_3)
+  \end{flalign*}\] \[
+  \begin{flalign*}
+  (1)\;\;\langle u|v_1+v_2\rangle=\langle u|v_1\rangle+\langle u|v_2\rangle&& \\
+  \end{flalign*}
+  \]
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Segundo a operação básica de {[}{[}Operação Básicas com
+  Vetores\textbar soma entre vetores{]}{]}, podemos concluir que a
+  expressão \(v_1+v_2\) resultará em \((a_1+a_2,b_1+b_2)\). Portanto, o
+  produto interno dos vetores \(u\) e \(v_1+v_2\) terá o seguinte
+  aspecto:\[
+    \begin{flalign*}
+    \langle u|v_1+v_2\rangle&=a_3\,(a_1+a_2)+b_3\,(b_1+b_2)\qquad\text{Pelo produto interno.}&& \\ \\
+    &=a_3\,a_1+a_3\,a_2+b_3\,b_1+b_3\,b_2\quad\;\;\text{Pela propriedade distributiva do produto.}&& \\ \\
+    &=\underbrace{a_3\,a_1+b_3\,b_1}_{\langle u|v_1\rangle}+\underbrace{a_3\,a_2+b_3\,b_2}_{\langle u|v_2\rangle}\quad\text{Reorganizando os termos..}&& \\ \\
+    &\therefore\langle u|v_1\rangle+\langle u|v_2\rangle\quad\blacksquare
+    \end{flalign*}
+    \]
+
+  \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+  \[
+  \begin{flalign*}
+  (2)\;\;\langle u|\lambda v_2\rangle=\lambda\langle u|v_2\rangle&&
+  \end{flalign*}
+  \]
+\item
+  Segundo a operação do {[}{[}Operação Básicas com
+  Vetores\textbar produto de um vetor por um escalar{]}{]}, \(v_2\) será
+  redimensionado para \((\lambda a_2,\lambda b_2)\). Portanto, o produto
+  interno dos vetores \(u\) e \(\lambda v_2\) terá o seguinte aspecto:\[
+    \begin{flalign*}
+    \langle u|\lambda v_2\rangle&=a_3\,(\lambda a_2)+b_3\,(\lambda b_2)\quad\text{Pelo produto interno.}&& \\ \\ 
+    &=\lambda\,(a_3a_2)+\lambda\,(b_3b_2)\quad\text{Pela propriedade associativa do produto.}&& \\ \\
+    &=\lambda\,(\underbrace{a_3a_2+b_3b_2}_{\langle u|v_2\rangle})\quad\quad\text{Colocando }\lambda\text{ em evidência.}&& \\ \\
+    &\therefore\;\lambda\,\langle u|v_2\rangle\quad\blacksquare
+    \end{flalign*}
+    \] *** \[
+  \begin{flalign*}
+  (3)\;\;\langle v_1|v_2\rangle=\langle v_2|v_1\rangle&&
+  \end{flalign*}
+  \]
+\item
+  A demonstração da propriedade de comutatividade dos vetores no produto
+  interno pode ser feita por uma manipulação algébrica simples, aqui
+  está a prova:\[
+    \begin{flalign*}
+    \langle v_1|v_2\rangle&=a_1\,a_2+b_1\,b_2\quad\text{Pelo produto interno.}&& \\ \\
+    &=a_2\,a_1+b_2\,b_1\quad\text{Pela propriedade comutativa do produto.}&& \\ \\
+    &=\underbrace{a_2\,a_1+b_2\,b_1}_{\langle v_2|v_1\rangle}\;\;\,\text{Encontramos a expressão do produto interno.}&& \\ \\
+    &\therefore\langle v_2|v_1\rangle=\langle v_1|v_2\rangle\quad\blacksquare&&
+    \end{flalign*}
+    \]
+
+  \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+  \[
+  \begin{flalign*}
+  (4)\;\;\langle u|u\rangle\geq0&&
+  \end{flalign*}
+  \]
+\item
+  Para demonstrar que o produto interno de um vetor com ele mesmo é no
+  mínimo zero, podemos utilizar a propriedade do quadrado de números
+  reais não nulos:\[
+    \begin{flalign*}
+    \langle u|u\rangle&=a_3\,a_3+b_3\,b_3\qquad\;\,\;\text{Pelo produto interno.}&& \\ \\
+    &=(a_3)^2+(b_3)^2,\qquad\text{Pela propriedade do quadrado de reais não nulos, deduzimos que }a_3\geq0,\,b_3\geq0.\text{ Logo, temos $3$ hipóteses:}&& \\ \\
+    &=(a_3=0\wedge b_3=0)\vee(a_3>0\wedge b_3=0)\vee(a_3>0\wedge b_3>0)&& \\ \\
+    &\text{1. Se }a_3=0\text{ e }b_3=0,\text{ então pelo elemento neutro da soma temos que }0+0=0\text{, satisfazendo a proposição.}&& \\ \\
+    &\text{2. Se }a_3>0\text{ e }b_3=0\text{ ou vice-versa, então novamente pelo elemento neutro da soma, temos que }a_3+0=a_3\text{ de modo que $a_3$ é positivo.}& \\ \\
+    &\text{3. Se $a_3>0$ e $b_3>0$, então por fechamento temos que $a_3+b_3>0$, satisfazendo a proposição inicial.}&& \\ \\
+    &\therefore\langle u|u\rangle\geq0\quad\blacksquare&&
+    \end{flalign*}
+    \]
+
+  \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+  \[
+  \begin{flalign*}
+  (5)\;\;\langle u|u\rangle=0\iff u=0&&
+  \end{flalign*}
+  \]
+\item
+  Para demonstrar que o produto interno de um vetor com ele mesmo é zero
+  se, e somente se, o vetor for nulo, provaremos os dois sentidos da
+  implicação: \[
+  \begin{flalign*}
+  &\underline{\langle u|u\rangle=0\implies u=0}&& \\ \\
+  &=\langle u|u\rangle=0\qquad\qquad\;\text{Partimos dessa suposição inicial. Logo, pela questão anterior obtemos:}&& \\ \\
+  &=(a_3)^2+(b_3)^2=0,\quad\text{Também sabemos que }a_3\geq0,\,b_3\geq0.&& \\ \\
+  &\text{Portanto, nos resta a hipótese de que $a_3=0$ e $b_3=0$. Desse modo, concluimos que se trata de um vetor nulo e $u=0$.}&& \\ \\
+  &\underline{u=0\implies\langle u|u\rangle=0}&& \\ \\
+  &=(a_3=0\wedge b_3=0)\quad\text{Partimos dessa suposição inicial. Logo, aplicando o produto interno:}&& \\ \\
+  &=\underbrace{0\cdot0+0\cdot0}_{\langle u|u\rangle}=0&& \\ \\
+  &\therefore\langle u|u\rangle=0\quad\blacksquare
+  \end{flalign*}
+  \]
+
+  \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  A relação algébrica entre a norma e o produto interno do vetor \(u\)
+  consigo mesmo pode ser obtida por uma manipulação algébrica simples:\[
+  \begin{flalign*}
+  &\text{Norma do vetor }\mathbf u:\,\|u\|=\sqrt{(a_3)^2+(b_3)^2}&& \\ \\
+  &\text{Produto interno de }\mathbf u\text{ c/}\mathbf u:\,\langle u|u\rangle=(a_3)^2+(b_3)^2&& \\ \\
+  &\text{Podemos observar que a expressão }(a_3)^2+(b_3)^2\text{ é comum a ambas as soluções. Portanto, substituindo temos:}&& \\ \\
+  &\boxed{\|u\|=\sqrt{\langle u|u\rangle}}\quad\text{Encontramos a relação algébrica entre a norma e o produto interno.}&& \\ \\
+  \end{flalign*}
+  \]
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Para encontrar o ângulo entre as retas especificadas, selecionaremos
+  vetores referentes a cada reta e calcularemos o produto interno deles
+  por meio da fórmula do cosseno. Aqui está a demonstração
+  passo-a-passo:\[
+  \begin{flalign*}
+  &\text{Primeiramente, isolaremos o $y$ em ambas as equações e obteremos:}&& \\ \\
+  &=y_1=-\frac{2}{3}x_1&& \\ \\
+  &=y_2=-\frac{5}{2}x_2&& \\ \\
+  &\text{\textbf{Obs.} A notação $x_1,\,x_2$ e $y_1,\,y_2$ foi empregada para distinguir entre as expressões.}&& \\ \\
+  &\text{Como não há coeficientes lineares, deduzimos que as retas se cruzam na origem. Portanto, podemos selecionar um ponto $x$ qualquer e teremos }&& \\ \\
+  &\text{duas semirretas da origem $(0,0)$ até $(x,y_1)$ e $(x,y_2)$, nos proporcionando dois vetores. Assim sendo, suponha que escolhemos $(x=1)$:}&& \\ \\
+  &=y_1=-\frac{2}{3}\therefore\,v_1=(1,-\frac{2}{3})&& \\ \\
+  &=y_2=-\frac{5}{2}\therefore\,v_2=(1,-\frac{5}{2})&& \\ \\
+  &\text{\textbf{Obs.} A notação $v_1,\,v_2$ foi utilizada para diferenciar os vetores.}&& \\ \\
+  &\text{Cálculo do produto interno $\langle v_1|v_2\rangle$ usando duas expressões distintas:}&& \\ \\
+  &=1\cdot 1+(-\frac{2}{3})\cdot (-\frac{5}{2})=|v_1|\,|v_2|\cdot\cos(\theta)&& \\ \\
+  &=1+(-\frac{\cancel{2}}{3})\cdot (-\frac{5}{\cancel{2}})=|v_1|\,|v_2|\cdot\cos(\theta)&& \\ \\
+  &\text{A norma $v_1,\,v_2$ será determinada abaixo:}&& \\ \\
+  &=\|v_1\|=\sqrt{(1)^2+(-\frac{2}{3})^2}=\sqrt{1+\frac{4}{9}}=\sqrt{\frac{13}{9}}\therefore\|v_1\|=\frac{\sqrt{13}}{3}&& \\ \\
+  &=\|v_2\|=\sqrt{(1)^2+(-\frac{5}{2})^2}=\sqrt{1+\frac{25}{4}}=\sqrt{\frac{29}{4}}\therefore\|v_2\|=\frac{\sqrt{29}}{2}&& \\ \\
+  &\text{Substituindo na expressão original:}&& \\ \\
+  &=1+\frac{5}{3}=\bigg(\frac{\sqrt{13}}{3}\bigg)\bigg(\frac{\sqrt{29}}{2}\bigg)\cdot\cos(\theta)&& \\ \\
+  &=\frac{8}{3}=\frac{\sqrt{377}}{6}\cdot\cos(\theta)&& \\ \\
+  &=\frac{16\sqrt{377}}{377}=\cos(\theta)&& \\ \\
+  &=\cos^{-1}(\frac{16\sqrt{377}}{377})=\theta&& \\ \\
+  &\therefore\;\boxed{34,5\textdegree\approx\theta}&&
+  \end{flalign*}
+  \]
+\end{enumerate}
+
+\end{document}
