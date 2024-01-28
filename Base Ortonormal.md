@@ -1,6 +1,6 @@
 # Base Ortonormal
 
-> $\textit{Definição.}$ *Conjunto de vetores linearmente independentes (definição de [[Bases e Dimensão|base]]) que são ortogonais entre si e possuem comprimento unitário.*
+**Definição:** Conjunto de vetores linearmente independentes (definição de [base](Base e Dimensão.md)) que são ortogonais entre si e possuem comprimento unitário.
 
 Diremos que o conjunto
 
@@ -13,8 +13,8 @@ $$
 $$
 \langle u_{i}|u_{j} \rangle =
 \begin{cases}
-1&\text{se}\;  i=j,\\
-2&\text{se}\;  i\neq j.   
+1&\text{se }  i=j,\\
+2&\text{se }  i\neq j.   
 \end{cases}
 $$
 
@@ -46,10 +46,10 @@ $$
 
 Portanto, podemos extrair disso a seguinte proposição:
 
-**Proposição:** *Se $\beta=\{u_{1},\dots,u_{m}\}$ é uma base ortonormal de um subespaço $S$ do $\Bbb{R}^{n}$ e $v\not\in S$, então*
+**Proposição:** *Se $`\beta=\{u_{1},\dots,u_{m}\}`$ é uma base ortonormal de um subespaço $`S`$ do $`\Bbb{R}^{n}`$ e $`v\not\in S`$, então*
 
 $$
 v-\langle u_{1}|v \rangle u_{1}-\dots-\langle u_{m}|v \rangle u_{m}
 $$
 
-*é um vetor ortogonal a $S$*.
+*é um vetor ortogonal a $`S`$ .*
