@@ -34,11 +34,11 @@ Com efeito, deduzimos duas propriedades importantes de sistemas homogêneos:
 Por fim, a última proposição, e não menos importante, nos informa que dado um sistema linear particular tal como
 
 $$
-Ax_{p}=b,\; (b\neq 0),
+Ax_{p}=b, (b\neq 0),
 $$
 
 suas soluções podem ser obtidas se pegarmos uma das soluções desse sistema e somarmos com as **soluções do sistema homogêneo associado**. Portanto, denotando por $`x_{h}`$ a **família de soluções** de um sistema linear homogêneo $`Ax_{h}=0`$, temos que:
 
 $$
-A\mathbf{x}=b,\;(\mathbf{x}=x_{p}+x_{h}).
+A\mathbf{x}=b,(\mathbf{x}=x_{p}+x_{h}).
 $$
