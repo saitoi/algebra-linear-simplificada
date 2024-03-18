@@ -1,8 +1,7 @@
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Projeção
  
-> $\textit{Definição.}$ Transformação de um vetor em um subespaço ou plano que envolve o alinhamento deste vetor com algum outro especificado.
+> **Definição:** Transformação de um vetor em um subespaço ou plano que envolve o alinhamento deste vetor com algum outro especificado.
 
 ### $\textup{Principais formas de projeção.}$
 

@@ -1,5 +1,3 @@
-complete: true
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Mudança de Base de Vetores
 

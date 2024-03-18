@@ -1,9 +1,7 @@
-complete: true
----
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Produto Interno
 
-> $\textit{Definição.}$ *Operação matemática que associa duas grandezas vetoriais a um escalar (número real).*
+> **Definição.** *Operação matemática que associa duas grandezas vetoriais a um escalar (número real).*
 ## $\;$
 Dados dois vetores $v$ e $u$ pertencentes a um espaço vetorial $\Bbb{R}^n,(\,\forall n\in\Bbb{N})$. A expressão para o produto interno é definida como:
 
@@ -20,6 +18,7 @@ $$
 \langle v|u \rangle &=v_{1}u_{1}+v_{2}u_{2}+\dots+v_{n}u_{n}
 \end{align}
 $$
+
 Por fim, podemos enxergar o produto interno de outra forma, isto é, como a multiplicação de duas matrizes. Considere os vetores $v=\mycolv{x\\y}$ e $u=\mycolv{u_{1}\\u_{2}}$, or produto deles resultaria em:
 $$
 \begin{align}
