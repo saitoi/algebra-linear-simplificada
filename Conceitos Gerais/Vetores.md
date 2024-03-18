@@ -29,7 +29,14 @@ $$
 
 $$
 \begin{rcases}
-\begin{bmatrix}0\\0\\a\\\vdots\\b\\0\end{bmatrix}
+\begin{bmatrix}
+0\\
+0\\
+a\\
+\vdots\\
+b\\
+0 \\
+\end{bmatrix}
 \end{rcases}n
 $$
 
