@@ -50,6 +50,10 @@ v={
 3\\
 2 \\
 \end{bmatrix}}  \\
-&\text{Vetor transposto: }\; v^{t}={\begin{bmatrix}2\\3\end{bmatrix}}
+&\text{Vetor transposto: }\; v^{t}={
+\begin{bmatrix}
+2\\
+3 \\
+\end{bmatrix}}
 \end{align}
 $$
