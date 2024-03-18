@@ -60,8 +60,15 @@ Podemos reformular a fórmula da matriz de projeção por meio do conceito de tr
 $$
 \begin{aligned}
 A_{T} &= uu^{T} \\\\
-&= \begin{bmatrix}u_{1}\\u_{2}\end{bmatrix} [u_{1}\quad  u_{2}] \\\\
-&= \begin{bmatrix}u_{1}^{2} & u_{1}u_{2}\\u_{1}u_{2} & u_{2}^{2}\end{bmatrix}
+&= \begin{bmatrix}
+u_{1}\\
+u_{2}
+\end{bmatrix} [u_{1}\quad  u_{2}]
+\\ \\
+&= \begin{bmatrix}
+u_{1}^{2} & u_{1}u_{2}\\
+u_{1}u_{2} & u_{2}^{2} \\
+\end{bmatrix}
 \end{aligned}
 $$
 
