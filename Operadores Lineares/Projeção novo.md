@@ -13,12 +13,12 @@ $$
 Como foi visto no [[Produto Interno|produto interno]], podemos reescrever a fórmula acima da seguinte forma:
 
 $$
-\begin{align}
-\textup{Proj}_{u}(v)&=\underbrace{\|v\|\cos \theta}_{\langle v|\hat{u} \rangle }\cdot \frac{u}{\|u\|} \\ \\
-
-\textup{Proj}_{u}(v)&=\langle v|\hat{u} \rangle \cdot \hat{u}
-\end{align}
+\begin{aligned}
+\textup{Proj}_{u}(v) &= \underbrace{\|v\|\cos \theta}_{\langle v|\hat{u} \rangle} \cdot \frac{u}{\|u\|} \\\\
+\textup{Proj}_{u}(v) &= \langle v|\hat{u} \rangle \cdot \hat{u}
+\end{aligned}
 $$
+
 
 **Obs.** Considerando que $\hat{u}$ é um vetor unitário.
 
@@ -58,11 +58,11 @@ $$
 Podemos reformular a fórmula da matriz de projeção por meio do conceito de transposição. Podemos fazer isso da seguinte forma:
 
 $$
-\begin{align}
-A_{T}&=uu^{T} \\ \\
-&={\begin{bmatrix}u_{1}\\u_{2}\end{bmatrix}}\mathbf{[}u_{1}\quad  u_{2}\mathbf{]} \\ \\
-&={\begin{bmatrix}u_{1}^{2} & u_{1}u_{2}\\u_{1}u_{2} & u_{2}^{2}\end{bmatrix}}
-\end{align}
+\begin{aligned}
+A_{T} &= uu^{T} \\\\
+&= \begin{bmatrix}u_{1}\\u_{2}\end{bmatrix} [u_{1}\quad  u_{2}] \\\\
+&= \begin{bmatrix}u_{1}^{2} & u_{1}u_{2}\\u_{1}u_{2} & u_{2}^{2}\end{bmatrix}
+\end{aligned}
 $$
 
 Como podemos ver, partindo do produto $uu^{T}$, obtemos a fórmula da matriz de projeção.
