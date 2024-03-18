@@ -5,7 +5,13 @@
 **Representação algébrica.**
 
 $$
-v=(v_{1},v_{2},\,\dots\,,v_{n})\quad  \text{ ou }\quad  v={\begin{bmatrix}v_{1}\\v_{2}\\\vdots\\v_{n}\end{bmatrix}}
+v=(v_{1},v_{2},\,\dots\,,v_{n})\quad  \text{ ou }\quad
+v={\begin{bmatrix}
+v_{1}\\
+v_{2}\\
+\vdots \\
+v_{n} \\
+\end{bmatrix}}
 $$
 
 **Representação gráfica.** Suponha o vetor genérico $\vec{v}$ definido por $v={\begin{bmatrix}3\\2\end{bmatrix}}$.
