@@ -12,12 +12,12 @@ $$
 
 Como foi visto no [[Produto Interno|produto interno]], podemos reescrever a fórmula acima da seguinte forma:
 
-$$
+```math
 \begin{aligned}
 \textup{Proj}_{u}(v) &= \underbrace{\|v\|\cos \theta}_{\langle v|\hat{u} \rangle} \cdot \frac{u}{\|u\|} \\ \\
 \textup{Proj}_{u}(v) &= \langle v|\hat{u} \rangle \cdot \hat{u}
 \end{aligned}
-$$
+```
 
 
 **Obs.** Considerando que $\hat{u}$ é um vetor unitário.
@@ -26,7 +26,7 @@ $$
 
 Calculamos a matriz para transformação de um vetor qualquer do plano $v$ em sua projeção $u$ da seguinte forma:
 
-$$
+```math
 \begin{aligned}
 \textup{Proj}_{\hat{u}}(v) &= \langle u|v \rangle \cdot v \\ \\
 &= (u^{T}v) \cdot u \\\\
@@ -39,7 +39,7 @@ u_1u_2x + u_2^2y
 \end{bmatrix}
 \longrightarrow \underbrace{\begin{bmatrix}u_1^2 & u_1u_2 \\ u_1u_2 & u_2^2\end{bmatrix}}_{\text{matriz de projeção}} \cdot \begin{bmatrix}x\\y\end{bmatrix}
 \end{aligned}
-$$
+```
 
 Portanto, a matriz de projeção sobre $u$, considerando $u\in\Bbb{R}^{2}$ é dada por
 
