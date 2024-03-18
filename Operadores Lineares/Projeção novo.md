@@ -14,7 +14,7 @@ Como foi visto no [[Produto Interno|produto interno]], podemos reescrever a fór
 
 $$
 \begin{aligned}
-\textup{Proj}_{u}(v) &= \underbrace{\|v\|\cos \theta}_{\langle v|\hat{u} \rangle} \cdot \frac{u}{\|u\|} \\\\
+\textup{Proj}_{u}(v) &= \underbrace{\|v\|\cos \theta}_{\langle v|\hat{u} \rangle} \cdot \frac{u}{\|u\|} \\ \\
 \textup{Proj}_{u}(v) &= \langle v|\hat{u} \rangle \cdot \hat{u}
 \end{aligned}
 $$
@@ -28,13 +28,10 @@ Calculamos a matriz para transformação de um vetor qualquer do plano $v$ em su
 
 $$
 \begin{aligned}
-\textup{Proj}_{\hat{u}}(v) &= \langle u|v \rangle \cdot v \\\\
-
+\textup{Proj}_{\hat{u}}(v) &= \langle u|v \rangle \cdot v \\ \\
 &= (u^{T}v) \cdot u \\\\
-
 &= \left(\big[u_1, u_2\big] \begin{bmatrix}x\\y\end{bmatrix}\right) \cdot \begin{bmatrix}u_1\\u_2\end{bmatrix}
-\longrightarrow (u_1x + u_2y) \cdot \begin{bmatrix}u_1\\u_2\end{bmatrix} \\\\
-
+\longrightarrow (u_1x + u_2y) \cdot \begin{bmatrix}u_1\\u_2\end{bmatrix} \\ \\
 &= 
 \begin{bmatrix}
 u_1^2x + u_1u_2y \\
