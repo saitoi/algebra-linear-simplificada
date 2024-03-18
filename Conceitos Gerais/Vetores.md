@@ -14,7 +14,7 @@ v_{n} \\
 \end{bmatrix}}
 $$
 
-**Representação gráfica.** Suponha o vetor genérico $\vec{v}$ definido por $v={\begin{bmatrix}3\\2\end{bmatrix}}$.
+**Representação gráfica.** Suponha o vetor genérico $\vec{v}$ definido por $v=(3,2)$.
 
 ```tikz
 \begin{document}
