@@ -27,21 +27,21 @@ $$
 Calculamos a matriz para transformação de um vetor qualquer do plano $v$ em sua projeção $u$ da seguinte forma:
 
 $$
-\begin{align}
-\textup{Proj}_{\hat{u}}(v)&=\langle u|v \rangle \cdot v \\ \\
+\begin{aligned}
+\textup{Proj}_{\hat{u}}(v) &= \langle u|v \rangle \cdot v \\\\
 
-&=(u^{T}v)\cdot u \\ \\
+&= (u^{T}v) \cdot u \\\\
 
-&=\Bigg(\big[u_1,\,u_2\big]{\begin{bmatrix}x\\y\end{bmatrix}}\Bigg)\cdot{\begin{bmatrix}u_1\\u_2\end{bmatrix}}
-\longrightarrow(u_1x+u_2y)\cdot{\begin{bmatrix}u_1\\u_2\end{bmatrix}} \\ \\
+&= \left(\big[u_1, u_2\big] \begin{bmatrix}x\\y\end{bmatrix}\right) \cdot \begin{bmatrix}u_1\\u_2\end{bmatrix}
+\longrightarrow (u_1x + u_2y) \cdot \begin{bmatrix}u_1\\u_2\end{bmatrix} \\\\
 
-&=
+&= 
 \begin{bmatrix}
-u_1^2x &+& u_1u_2y \\
-u_1u_2x &+& u_2^2y
+u_1^2x + u_1u_2y \\
+u_1u_2x + u_2^2y
 \end{bmatrix}
-\longrightarrow\underbrace{{\begin{bmatrix}u_1^2 & u_1u_2 \\ u_1u_2 & u_2^2\end{bmatrix}}}_{\text{matriz de projeção}}\cdot{\begin{bmatrix}x\\y\end{bmatrix}}
-\end{align}
+\longrightarrow \underbrace{\begin{bmatrix}u_1^2 & u_1u_2 \\ u_1u_2 & u_2^2\end{bmatrix}}_{\text{matriz de projeção}} \cdot \begin{bmatrix}x\\y\end{bmatrix}
+\end{aligned}
 $$
 
 Portanto, a matriz de projeção sobre $u$, considerando $u\in\Bbb{R}^{2}$ é dada por
