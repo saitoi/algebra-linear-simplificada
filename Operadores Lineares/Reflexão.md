@@ -1,5 +1,3 @@
-Claro, aqui está o texto modificado com a substituição de `$$ $$` por bloco de código para matemática utilizando ```math:
-
 # Reflexão
 
 > **Definição.** Transformação linear que mapeia um vetor para um vetor refletido com relação a um plano ou espelho.
