@@ -4,7 +4,7 @@
 
 Principais operações que podem ser realizadas com vetores:
 
-1. **Soma de vetores**. A soma de dois vetores resulta em um vetor cuja magnitude equivale à soma das magnitudes dos vetores originais e a direção é determinada junção das componentes dos vetores.
+1. **Soma de vetores**. A soma de dois vetores gera vetor com magnitude equivalente à soma das magnitudes originais e direção determinada pela junção de suas componentes. Podemos representar a soma de vetores de <u>forma algébrica</u> e <u>visual</u>.
 
 - **Representação algébrica.** Podemos tratar da soma de vetores de forma algébrica, isto é, representando a soma das componentes individuais dos vetores. Suponha os vetores $v$ e $u$ ambos pertencentes a $\Bbb{R}^n$, aqui está a interpretação algébrica:
 
