@@ -1,8 +1,6 @@
-Aqui está o texto modificado com a substituição de `$\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$` pelo comando de matriz LaTeX padrão e a conversão dos blocos de matemática para o formato de bloco de código `math`:
-
 # Operação Básicas com Vetores
 
-> $\textit{Definição.}$ Refere-se às operações aritméticas que podem ser realizadas com grandezas vetoriais.
+> **Definição.** Refere-se às operações aritméticas que podem ser realizadas com grandezas vetoriais.
 
 Principais operações que podem ser realizadas com vetores:
 
@@ -34,8 +32,6 @@ v-u\coloneqq\begin{bmatrix}x_1\\y_1\\\vdots\\n_1\end{bmatrix}-\begin{bmatrix}x_2
 
 Assim como a visualização da soma, a representação da subtração de vetores com o código TikZ requer um ambiente LaTeX compatível para ser visualizada corretamente.
 
-3. **Produto interno.** Possui uma seção reservada para a descrição do Produto Interno. Aqui está uma breve explicação.
+3. **Produto interno.** Já temos uma seção reservada para o [produto interno](Produto%20Interno.md).
 
-4. **Produto vetorial.** Possui uma seção reservada para a descrição do produto vetorial.
-
-Já temos uma seção detalhada para o [produto interno](Produto%20Interno.md).
+4. **Produto vetorial.** Já temos uma seção reservada para o [produto vetorial](Produto%20Vetorial.md).

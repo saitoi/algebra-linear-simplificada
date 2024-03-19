@@ -1,3 +1,3 @@
 # Produto Vetorial
 
-> $\textit{Definição.}$ 
+> **Definição.** 
