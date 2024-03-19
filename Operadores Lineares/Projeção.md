@@ -19,7 +19,6 @@ Como foi visto no [produto interno](/Operações%20com%20Vetores/Produto%20Inter
 \end{aligned}
 ```
 
-
 **Obs.** Considerando que $\hat{u}$ é um vetor unitário.
 
 ## Matriz de Projeção
