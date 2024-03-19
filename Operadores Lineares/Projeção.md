@@ -10,7 +10,7 @@ $$
 \boxed{\textup{Proj}_{u}(v)=\|v\|\cos \theta\cdot \frac{u}{\|u\|}}
 $$
 
-Como foi visto no [[Produto Interno|produto interno]], podemos reescrever a fórmula acima da seguinte forma:
+Como foi visto no [produto interno](/Operações%20com%20Vetores/Produto%20Interno.md), podemos reescrever a fórmula acima da seguinte forma:
 
 ```math
 \begin{aligned}

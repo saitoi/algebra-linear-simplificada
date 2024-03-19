@@ -17,7 +17,7 @@ Ou seja, a reflexão de $v$ corresponde à soma das projeções sobres $u,v$ os 
 ```math
 \begin{align*}
 &\text{Proj}_{u}(\text{R}(v))=\text{Proj}_{u}(v) \\ \\
-&\text{Proj}_{n}(\text{R}(v))=-\text{Proj}_{n}(v)
+&\text{Proj}_{n}(\text{R}(v))=-\text{Proj}_{n}(v)s
 \end{align*}
 ```
 
