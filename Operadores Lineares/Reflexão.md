@@ -4,7 +4,7 @@
 
 ## Fórmula Geral
 
-**Demonstração.** Considere um $\textit{espelho}$ definido pelo vetor unitário $u$ e outro unitário perpendicular a este, definido por $n$. Se $v$ for um vetor do plano e $\text{R}(v)$ seu reflexo com relação ao espelho $u$, temos que 
+**Demonstração.** Considere um espelho definido pelo vetor unitário $u$ e outro unitário perpendicular a este, definido por $n$. Se $v$ for um vetor do plano, sua reflexão $\text{R}(v)$ será:
 
 ```math
 \begin{align*}
@@ -12,12 +12,12 @@
 \end{align*}
 ```
 
-Ou seja, a reflexão de $v$ corresponde à soma das projeções sobres $u,v$ os quais formam uma base ortonormal no plano. Como a reflexão de $v$ é feita sobre $u$, podemos afirmar que as coordenadas em relação a $u$ permanecerão idênticas à da projeção, enquanto a componente da normal $n$ será invertida. Portanto, teríamos
+Ou seja, $\text{R}(v)$ corresponde à soma das projeções sobres $u,v$. Como a reflexão de $v$ é feita sobre o espelho $u$, as coordenadas com relação a $u$ permanecerão idênticas à da projeção, enquanto as coordenadas com base na normal $n$ serão invertidas. Matematicamente, temos:
 
 ```math
 \begin{align*}
 &\text{Proj}_{u}(\text{R}(v))=\text{Proj}_{u}(v) \\ \\
-&\text{Proj}_{n}(\text{R}(v))=-\text{Proj}_{n}(v)s
+&\text{Proj}_{n}(\text{R}(v))=-\text{Proj}_{n}(v)
 \end{align*}
 ```
 
