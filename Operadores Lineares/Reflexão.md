@@ -2,9 +2,9 @@
 
 > **Definição.** Transformação linear que mapeia um vetor para um vetor refletido com relação a um plano ou espelho.
 
-## $\texttt{Fórmula geral.}$
+## Fórmula Geral
 
-$\mathbf{Demonstração.}$ Considere um $\textit{espelho}$ definido pelo vetor unitário $u$ e outro unitário perpendicular a este, definido por $n$. Se $v$ for um vetor do plano e $\text{R}(v)$ seu reflexo com relação ao espelho $u$, temos que 
+**Demonstração.** Considere um $\textit{espelho}$ definido pelo vetor unitário $u$ e outro unitário perpendicular a este, definido por $n$. Se $v$ for um vetor do plano e $\text{R}(v)$ seu reflexo com relação ao espelho $u$, temos que 
 
 ```math
 \begin{align*}
@@ -64,9 +64,7 @@ Posto isso, considere o vetor genérico $v=\begin{bmatrix}x\\y\end{bmatrix}$ e s
 \begin{align}
 \text{R}(v)&=2\cdot \textup{Proj}_{u}(v)-v \\ \\
 &=2\cdot\begin{bmatrix}u_1^2 & u_1u_2 \\ u_1u_2 & u_2^2\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}-\begin{bmatrix}x\\y\end{bmatrix} \\ \\
-&=\begin{bmatrix}x\\y\end{bmatrix}\bigg(2\begin{bmatrix}u_1^2 & u_1u_2 \\ u_1u_2 & u_2^2\end{bmatrix}-I\
-
-bigg) \\ \\
+&=\begin{bmatrix}x\\y\end{bmatrix}\bigg(2\begin{bmatrix}u_1^2 & u_1u_2 \\ u_1u_2 & u_2^2\end{bmatrix}-I\bigg) \\ \\
 &=\begin{bmatrix}x\\y\end{bmatrix}\underbrace{\begin{bmatrix}2u_1^2-1 & 2u_1u_2 \\ 2u_1u_2 & 2u_2^2-1\end{bmatrix}}_{\texttt{matriz de reflexão}}\\ \\
 \end{align}
 ```
@@ -79,11 +77,12 @@ A=\begin{bmatrix}2u_1^2-1 & 2u_1u_2 \\ 2u_1u_2 & 2u_2^2-1\end{bmatrix}
 \end{align}
 ```
 
-## $\texttt{Propriedades da matriz de reflexão.}$
+## Propriedades
 
-Aqui estão algumas propriedades para identificar matrizes de reflexão:
+Uma matriz de reflexão também é..
 
-1. A matriz de reflexão deve ser quadrada, isto é, o número de linhas é igual ao número de colunas.
-2. A matriz deve ser ortogonal, suas linhas e colunas são vetores unitários perpendiculares entre si.
-3. Quando multiplicada por si mesma deve resultar na matriz identidade $I$.
+1. Matriz quadrada.
+2. Matriz ortonormal.
+3. Matriz inversa.
+
 4. A direção do vetor espelho $u$ corresponde à soma do vetor original $v$ com seu reflexo $R(v)$.
