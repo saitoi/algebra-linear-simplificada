@@ -2,8 +2,8 @@
 
 > **Definição.** Função que mapeia vetores de um espaço vetorial para vetores de outro espaço vetorial, de modo a preservar algumas propriedades fundamentais.
 
-**Propriedades fundamentais.** *Para quaisquer vetores $v$ e $u$, suponha uma transformação linear $T$ que parte de um espaço vetorial $V$ sobre um corpo $K$ 
-para um espaço vetorial $W$ deve satisfazer as seguintes propriedades*:
+**Propriedades fundamentais.** Para quaisquer vetores $v$ e $u$, suponha uma transformação linear $T$ que parte de um espaço vetorial $V$ sobre um corpo $K$ 
+para um espaço vetorial $W$ deve satisfazer as seguintes propriedades:
 
 1. Preservação da adição: $T(u+v)=T(u)+T(v)$.
 2. Preservação do produto por escalar: $T(cu)=c\cdot T(u)$ para todo $c\in K$.
