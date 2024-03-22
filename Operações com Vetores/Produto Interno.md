@@ -18,7 +18,7 @@ Por outro lado, quando tratamos das coordenadas dos vetores no produto interno o
 \end{align}
 ```
 
-Por fim, podemos enxergar o produto interno de outra forma, isto é, como a multiplicação de duas matrizes. Considere os vetores $v=\begin{bmatrix}x\\y\end{bmatrix}$ e $u=\begin{bmatrix}u_{1}\\u_{2}\end{bmatrix}$, o produto deles resultaria em:
+Por fim, podemos enxergar o produto interno de outra forma, isto é, como a multiplicação de duas matrizes. Considere os vetores $v=(x,y)$ e $u=(u_1, u_2)$, o produto deles resultaria em:
 
 ```math
 \begin{align}
