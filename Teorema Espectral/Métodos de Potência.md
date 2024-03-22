@@ -8,9 +8,9 @@ Seja $T$ um operador autoadjunto do plano, cujos autovalores não são nulos. Da
 u_{i}=\dfrac{T(u_{i-1})}{\|T(u_{i-1})\|}\tag{1}
 ```
 
-**Lema.** *Sejam $v_{1}$ e $v_{2}$ vetores não nulos do plano. Se $v_{1}$ é múltiplo de $v_{2}$, então as normalizações de $v_{1}$ e $v_{2}$ são iguais, a menos o sinal. Em particular, se $a>0$, as duas normalizações são iguais.*
+**Lema.** Sejam $v_{1}$ e $v_{2}$ vetores não nulos do plano. Se $v_{1}$ é múltiplo de $v_{2}$, então as normalizações de $v_{1}$ e $v_{2}$ são iguais, a menos o sinal. Em particular, se $a>0$, as duas normalizações são iguais.
 
-**Lema.** *Se $T$ é um operador linear autoadjunto cujos autovalores não são nulos e $u_{0}$ é um vetor do plano, então*
+**Lema.** Se $T$ é um operador linear autoadjunto cujos autovalores não são nulos e $u_{0}$ é um vetor do plano, então
 
 ```math
 u_{i}=\dfrac{T^{i}(u_{0})}{\|T^{i}(u_{0})\|}
