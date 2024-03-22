@@ -1,5 +1,3 @@
----
-$\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Erro Computacional
 
 Dada uma expressão genérica $Ax=b$ e o vetor solução $x'$, definimos a diferença e o erro entre as soluções como sendo, respectivamente,
