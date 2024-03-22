@@ -1,7 +1,6 @@
-$\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Determinante
 
-> $\textit{Definição.}$ Grandeza escalar associada a uma matriz quadrada que descreve o comportamento do volume ou área (depende da dimensão) em uma transformação.
+> **Definição.** Grandeza escalar associada a uma matriz quadrada que descreve o comportamento do volume ou área (depende da dimensão) em uma transformação.
 
 ## Definição Recursiva
 
