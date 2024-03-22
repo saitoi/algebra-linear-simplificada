@@ -4,29 +4,29 @@
 
 Dados dois vetores $v$ e $u$ pertencentes a um espaço vetorial $\Bbb{R}^n,(\,\forall n\in\Bbb{N})$. A expressão para o produto interno é definida como:
 
-$$
+```math
 \boxed{v\cdot u=|v|\cdot|u|\cdot\cos\theta\degree}
-$$
+```
 
 Por outro lado, quando tratamos das coordenadas dos vetores no produto interno obtemos outra expressão para determinação das componentes do vetor resultante. Aqui está a representação abaixo:
 
-$$
+```math
 \begin{align}
 &v=\begin{bmatrix}v_{1}\\ v_{2}\\\vdots\\ v_{n}\end{bmatrix}\qquad u=\begin{bmatrix}u_{1}\\ u_{2}\\\vdots\\ u_{n}\end{bmatrix} \\ \\
 \langle v|u \rangle&=\sum_{i=1}^{n}(v_{i}\cdot u_{i}) \\  \\
 \langle v|u \rangle &=v_{1}u_{1}+v_{2}u_{2}+\dots+v_{n}u_{n}
 \end{align}
-$$
+```
 
 Por fim, podemos enxergar o produto interno de outra forma, isto é, como a multiplicação de duas matrizes. Considere os vetores $v=\begin{bmatrix}x\\y\end{bmatrix}$ e $u=\begin{bmatrix}u_{1}\\u_{2}\end{bmatrix}$, o produto deles resultaria em:
 
-$$
+```math
 \begin{align}
 \langle v|u \rangle &=v^{T}\cdot u \\ \\
 &=\begin{bmatrix}x & y\end{bmatrix}\cdot\begin{bmatrix}u_{1}\\ u_{2}\end{bmatrix} \\ \\
 &=x\cdot u_{1}+y\cdot u_{2}
 \end{align}
-$$
+```
 
 ## Notação 
 
