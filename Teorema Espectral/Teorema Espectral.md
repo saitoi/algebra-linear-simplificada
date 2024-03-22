@@ -30,7 +30,7 @@ A=\begin{bmatrix}a_{11} & a_{12}\\a_{21} & a_{22}\end{bmatrix}\quad\text{teremos
 \end{align}
 ```
 
-Assim, podemos afirmar que $A=A^{t}$, ou seja, $a_{21}=a_{12}$. O cálculo acima mostra que um operador é $\textit{autoadjunto}$ se, e somente se, sua matriz, relativamente à base canônica, é simétrica. Dentre os operadores lineares que estudamos, a [[Projeção|projeção]] e a [[Reflexão|reflexão]] são operadores autoadjuntos.
+Assim, podemos afirmar que $A=A^{t}$, ou seja, $a_{21}=a_{12}$. O cálculo acima mostra que um operador é $\textit{autoadjunto}$ se, e somente se, sua matriz, relativamente à base canônica, é simétrica. Dentre os operadores lineares que estudamos, a [projeção](/Operadores%20Lineares/Projeção.md) e a [reflexão](/Operadores%20Lineares/Reflexão.md) são operadores autoadjuntos.
 
 $\textbf{Demonstração.}$ Suponhamos que $T$ seja um operador autoadjunto, precisamos provar que $T$ tem dois autovalores reais distintos os quais estão associados a autovalores ortogonais.
 
