@@ -46,9 +46,9 @@ Por fim, deduzimos a fórmula para a reflexão do vetor $v$ com relação ao esp
 
 De modo que $n$ representa um vetor normal ao espelho, sendo escolhido arbitrariamente.
 
-## $\texttt{Matriz de reflexão.}$
+## Matriz de Reflexão
 
-Para determinar a matriz de reflexão, retornaremos à expressão $\textup{(2)}$ e, ao invés de substituirmos o termo $\text{Proj}_{u}(v)$, trocaremos $\text{Proj}_{n}(v)$ no lugar. Desse modo, teremos
+Para determinar a matriz de reflexão, retornaremos à expressão $\textup{(2)}$ e, ao invés de substituirmos o termo $Proj_{u}(v)$, trocaremos $\text{Proj}_{n}(v)$ no lugar. Desse modo, teremos
 
 ```math
 \begin{align}
