@@ -27,7 +27,7 @@ Logo, fazendo a substituição na equação $1$ teremos:
 \text{R}(v)=\text{Proj}_{u}(v)-\text{Proj}_{n}(v)\tag{2}
 ```
 
-Como também sabemos que $v=\text{Proj}_{u}(v)+\text{Proj}_{n}(v)$, obteremos então disso:
+Como também sabemos que $v = \text{Proj}_{u} (v) + \text{Proj}_{n} (v)$, obteremos então disso:
 
 ```math
 \begin{align*}
@@ -48,7 +48,7 @@ De modo que $n$ representa um vetor normal ao espelho, sendo escolhido arbitrari
 
 ## Matriz de Reflexão
 
-Para determinar a matriz de reflexão, retornaremos à expressão $\textup{(2)}$ e, ao invés de substituirmos o termo $Proj_{u}(v)$, trocaremos $\text{Proj}_{n}(v)$ no lugar. Desse modo, teremos
+Para determinar a matriz de reflexão, retornaremos à expressão $\textup{(2)}$ e, ao invés de substituirmos o termo $\text{Proj}_{u}(v)$, trocaremos $\text{Proj}_{n}(v)$ no lugar. Desse modo, teremos
 
 ```math
 \begin{align}
