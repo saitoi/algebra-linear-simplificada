@@ -1,8 +1,7 @@
----
-$\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
+
 # Ortogonalização
 
-> $\textit{Definição.}$ Refere-se à transformação de um conjunto de vetores linearmente independentes (LI) em um conjunto/base de vetores ortogonais cujas colunas são ortonormais.
+> **Definição.** Refere-se à transformação de um conjunto de vetores linearmente independentes (LI) em um conjunto/base de vetores ortogonais cujas colunas são ortonormais.
 
 Existem diversas técnicas para a ortogonalização, sendo o mais comum o **processo de Gram-Schmidt** cuja demonstração será realizada abaixo.
 
