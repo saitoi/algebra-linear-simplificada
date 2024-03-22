@@ -10,7 +10,7 @@ Suponha que temos uma base $\beta=\{V_{1},V_{2},\dots,V_{n}\}$ cujos vetores sã
 1. Escolheremos um dos vetores da base, tal como $V_{1}$ por exemplo.
 2. Normalize o vetor escolhido, ou seja, $\lvert V_{1} \rvert=u_{1}$.
 3. Nos resta encontrar a componente de $V_{2}$ ortogonal à $u_{1}$ que chamaremos de $V_{2x}$ por convenção.
-4. Calcularemos $V_{2x}$ da seguinte forma: $V_{2x}=V_{2}-\textit{Proj}_{u_{1}}V_{2}$.
+4. Calcularemos $V_{2x}$ da seguinte forma: $V_{2x} = V_{2} - \operatorname{Proj}_{u_{1}}(V_{2})$.
 5. Normalizaremos $V_{2x}$, ou seja, $\lvert V_{2} \rvert=u_{2}$.
 6. Tendo os vetores $u_{1}$ e $u_{2}$ normalizados corretamente, aplicaremos o algoritmo às próximas posições $V_{3},V_{4},\dots,V_{n}$.
 7. Teremos a base $\beta=\{u_{1},u_{2}\}$.
