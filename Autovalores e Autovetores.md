@@ -1,22 +1,18 @@
 # Autovalores e Autovetores
 
-> **Definição**. Autovetores (ou eigenvectors) se referem ao conjunto de vetores cuja direção não varia após uma transformação linear. Por outro lado, os autovalores (ou eigenvalues) correspondem às grandezas escalares que descrevem o escalonamento dos autovetores após uma transformação.
+> $\textit{Definição.}$ Autovetores (ou $\textit{eigenvectors}$) se referem ao conjunto de vetores cuja direção não varia após uma transformação linear. Por outro lado, os autovalores (ou $\textit{eigenvalues}$) correspondem às grandezas escalares que descrevem o escalonamento dos autovetores após uma transformação.
 
-Seja $T$ um operador linear do plano. Um autovetor de $T$, associado ao autovalor $\lambda \in\Bbb{R}$ é um vetor **não nulo** $v$ do plano que satisfaz a expressão.
-
-```math
+Seja $T$ um operador linear do plano. Um $\textit{autovetor}$ de $T$, associado ao $\textit{autovalor}\; \lambda \in\Bbb{R}$ é um vetor **não nulo** $v$ do plano que satisfaz a expressão.
+$$
 T(u)=\lambda v\tag{1}
-```
-
+$$
 Se $\mu$ é um número real qualquer, então
-
-```math
+$$
 T(\mu v)=\mu T(v)=\mu(\lambda v)=\lambda(\mu v) 
-```
-
+$$
 nos mostrando que qualquer múltiplo de $v$ também é um autovetor de $T$ associado a $\lambda$.
 
-## Operadores Lineares
+## $\texttt{Operadores Lineares.}$
 
 Podemos determinar os autovetores e autovalores associados a cada um dos principais operadores lineares.
 
@@ -25,29 +21,22 @@ Podemos determinar os autovetores e autovalores associados a cada um dos princip
 3. **Reflexão.** Possui um resultado semelhante, isto é, os vetores pertencentes ao espelho são autovetores associados a um, enquanto os vetores ortogonais ao espelho são autovetores associados a $-1$.
 4. **Cisalhamento.** Suponha o cisalhamento $S$ que deixa fixo os vetores múltiplos de $e_{1}$ e move $e_{2}$ para $e_{2}+e_{1}c$, para algum real não nulo $c$. Nesse sentido, os vetores múltiplos a $e_{1}$ são autovetores associados a um, não havendo outros autovetores possíveis em função da inclinação de $e_{2}$. A prova dessa proposição se encontra na [[Apostila Atualizada Álgebra Linear - Collier.pdf|apostila do Collier]].
 
-Para substituir todas as ocorrências de `mycolv` por `\begin{bmatrix}#1\end{bmatrix}`, você apenas precisa trocar o comando personalizado `\mycolv{conteúdo}` pelo equivalente LaTeX para matrizes. Aqui está seu texto modificado:
-
-## Calculando Autovetores e Autovalores
+## $\texttt{Calculando Autovetores e Autovalores.}$
 
 Seja $T$ um operador linear e sua matriz na base canônica representada por:
-
-```math
-A=\begin{bmatrix}a_{11} & a_{12} \\ a_{21} & a_{22}\end{bmatrix}
-```
-
+$$
+A=\mycolv{a_{11} & a_{12} \\ a_{21} & a_{22}}
+$$
 Assim sendo, a equação $T(v)=\lambda v$ empregada para definir $v\neq 0$ como autovetor associado ao autovalor $\lambda$ pode ser descrita na forma
-
-```math
+$$
 \begin{align}
-\begin{bmatrix}a_{11} & a_{12} \\ a_{21} & a_{22}\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\lambda\cdot \begin{bmatrix}x\\y\end{bmatrix}\tag{1} \\ \\
+\mycolv{a_{11} & a_{12} \\ a_{21} & a_{22}}\mycolv{x\\y}=\lambda\cdot \mycolv{x\\y}\tag{1} \\ \\
 a_{11}x+a_{12}y=\lambda x \\ \\
 a_{21}x+a_{22}y=\lambda y \\
 \end{align}
-```
-
+$$
 Como os termos constantes são nulos em ambas as equações, temos como solução possível $x,y=0$ (o que não pode ser autovetor de $T$). Portanto, para encontrar os autovetores de $T$, basta que o sistema possua mais de uma solução, ou seja, se as equações são múltiplas uma da outra. Desse modo, suponha a seguinte expressão
-
-```math
+$$
 \begin{align}
 &(a_{11}-\lambda)x+a_{12}y=\mu(a_{21}x+(a_{22}-\lambda)y) \\ \\
 &\begin{rcases}
@@ -55,64 +44,49 @@ a_{11}-\lambda=\mu a_{21} \\ \\
 a_{12}=\mu(a_{22}-\lambda)
 \end{rcases}\quad  \mu=\dfrac{a_{11}-\lambda}{a_{21}}=\dfrac{a_{12}}{a_{22}-\lambda}
 \end{align}
-```
-
+$$
 Por fim, obtemos
-
-```math
+$$
 (a_{11}-\lambda)(a_{22}-\lambda)=a_{21}a_{12}
-```
-
+$$
 O que equivale a
-
-```math
+$$
 \lambda^{2}-(a_{11}+a_{22})\lambda+(a_{11}a_{22}-a_{21}a_{12})=0
-```
-
+$$
 De modo que qualquer autovalor de $\lambda$ de $T$ é raiz da equação quadrática $p_{A}(t)=0$, em que
-
-```math
+$$
 p_{A}(t)=t^{2}-(a_{11}+a_{22})\lambda+(a_{11}a_{22}-a_{21}a_{12})
-```
-
+$$
 em que $p_{A}(t)$ é o $\textit{polinômio característico}$ de $A$ (e de $T$). Podemos usar determinantes para escrever o polinômio característico de forma compacta, tal como abaixo
-
-```math
+$$
 \begin{align}
-p_{A}(t)=\det(A-tI)=\det \begin{bmatrix}a_{11}-t & a_{12} \\ a_{21} & a_{22}-t\end{bmatrix}
+p_{A}(t)=\det(A-tI)=\det \mycolv{a_{11}-t & a_{12} \\ a_{21} & a_{22}-t}
 \end{align}
-```
-
+$$
 em que $I$ denota a matriz de identidade de $\Bbb{R}^{2}$. Por fim, para determinarmos o autovalor de uma matriz $A$ qualquer, basta substituir os valores na matriz e resolver a equação do segundo grau para $t$. Tendo encontrado o autovalor $t$ da matriz, podemos substituir em $(1)$ todos os valores correspondentes, resolvendo um sistema para as componentes $x,y$.
 
 Por fim, tendo descoberto os autovalores podemos determinar o conjunto de autovetores associados a cada um deles. Desse modo, retornaremos à expressão $(1)$ no topo.
-
-```math
+$$
 \begin{align}
 T(u)&=\lambda u \\ \\
 T(u)-\lambda u&=0 \\ \\
 \underbrace{(T-\lambda I)}_{\det=0}u&=0 \\ \\
 \end{align}
-```
-
-Como descobrimos o autovalor $\lambda$, podemos determinar o conjunto de autovetores $u$ por meio disso. Assim sendo teremos a seguinte expressão:
-
-```math
+$$
+Como descobrimos o autovalor $\lambda$, podemos determinar o conjunto de autovetores $u$ por meio disso. Assim sendo teremos a seguinte expressão
+$$
 \begin{align}
-\begin{bmatrix}a_{11}-\lambda & a_{12}\\a_{21} & a_{22}-\lambda\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}&=\begin{bmatrix}0\\0\end{bmatrix}\tag{2} \\ \\
+\mycolv{a_{11}-\lambda & a_{12}\\a_{21} & a_{22}-\lambda}\mycolv{x\\y}&=\mycolv{0\\0}\tag{2} \\ \\
 (a_{11}-\lambda)x+a_{12}y&=0 \\ \\
 a_{21}x+(a_{22}-\lambda)y&=0
 \end{align}
-```
+$$
+Como já determinarmos $\lambda$, nos resta identificar $x,y$ que, usualmente, corresponde a um conjunto de vetores que satisfazem a expressão dada.
 
-Como já determinamos $\lambda$, nos resta identificar $x,y$ que, usualmente, corresponde a um conjunto de vetores que satisfazem a expressão dada.
-
-Poderíamos também calcular os autovetores da seguinte forma:
-
-```math
+Poderíamos também calcular os autovetores da seguinte forma
+$$
 \begin{align}
-\begin{bmatrix}a_{11} & a_{12} \\a_{21} & a_{22}\end{bmatrix}\begin{bmatrix}x \\y\end{bmatrix}=\begin{bmatrix}x \\y\end{bmatrix}\lambda_{1}\quad \text{e}\quad  \begin{bmatrix}a_{11} & a_{12} \\a_{21} & a_{22}\end{bmatrix}\begin{bmatrix}x \\y\end{bmatrix}=\begin{bmatrix}x \\y\end{bmatrix}\lambda_{2} 
+\mycolv{a_{11} & a_{12} \\a_{21} & a_{22}}\mycolv{x \\y}=\mycolv{x \\y}\lambda_{1}\quad \text{e}\quad  \mycolv{a_{11} & a_{12} \\a_{21} & a_{22}}\mycolv{x \\y}=\mycolv{x \\y}\lambda_{2} 
 \end{align}
-```
-
+$$
 Ao resolver esse sistema linear, encontraremos os mesmos autovetores em relação aos obtidos na expressão $(2)$.
