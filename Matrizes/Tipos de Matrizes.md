@@ -28,12 +28,12 @@ L_{1,3}(-5)=\begin{bmatrix}1 & 0 & -5 \\0 & 1 & 0 \\0 & 0 & 1\end{bmatrix}\quad 
 
 > **Matriz Triangular**. Matriz quadrada em que todos os elementos acima ou abaixo da diagonal principal são nulos, sendo divididas entre matriz triangular superior e matriz triangular inferior.
 
-Dizemos que uma matriz $U$ é *triangular superior* se todas as entradas abaixo da diagonal principal são nulas, isto é, se $U_{i,j}=0$ sempre que $i<j$. Analogamente, $L$ é dita uma matriz *triangular inferior* acima da diagonal principal são nulas, o que equivale dizer que $L_{i,j}=0$ quando $i>j$. Aqui estão os exemplos citados
+Dizemos que uma matriz $U$ é *triangular superior* se todas as entradas abaixo da diagonal principal são nulas, isto é, se $U_{i,j}=0$ sempre que i<j. Analogamente, $L$ é dita uma matriz *triangular inferior* acima da diagonal principal são nulas, o que equivale dizer que $L_{i,j}=0$ quando $i>j$. Aqui estão os exemplos citados
 
 ```math
-\begin{align}
-U=\begin{bmatrix}a_{11} & a_{12} & a_{13} \\0 & a_{22} & a_{23} \\0 & 0 & a_{33}\end{bmatrix}\quad \text{e}\quad L=\begin{bmatrix}b_{11} & 0 & 0 \\b_{21} & b_{22} & 0 \\b_{31} & b_{32} & b_{33}\end{bmatrix}  
-\end{align}
+\begin{aligned}
+U=\begin{bmatrix}a_{11} & a_{12} & a_{13} \\ 0 & a_{22} & a_{23} \\ 0 & 0 & a_{33}\end{bmatrix}\quad \text{e}\quad L=\begin{bmatrix}b_{11} & 0 & 0 \\ b_{21} & b_{22} & 0 \\ b_{31} & b_{32} & b_{33}\end{bmatrix}  
+\end{aligned}
 ```
 
 > **Matriz Simétrica**. Matriz quadrada de tamanho $n\times n$ em que suas entradas satisfazem $a_{i,j}=a_{j,i}$ para todo $1\leq i\leq j\leq n$. Por outro lado, uma matriz é dita antissimétrica quando $a_{i,j}=-a_{j,i}$ para todo $1\leq i\leq j\leq n$.
