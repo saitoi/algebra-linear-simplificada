@@ -1,23 +1,29 @@
 # Bases e Dimensão
 
-> $\textit{Definição de Base.}$ *Um conjunto finito de geradores $\beta$ de um subespaço $U$ é uma base se nenhum de seus vetores pode ser escrito como combinação de linear*.
+> **Base*.* *Um conjunto finito de geradores $\beta$ de um subespaço $U$ é uma base se nenhum de seus vetores pode ser escrito como combinação de linear*.
 
 Por esse viés, o subespaço gerado ao removermos um dos vetores de $\beta$ não é mais igual a $U$.
 
-*Definição da base canônica..*
+## Definição da base canônica
 
 Suponha $w_{1},\dots,w_{m}$ geradores de um subespaço $U\in\Bbb{R}^{n}$. Considere então que
-$$
+
+```math
 G=\{w_{1},\dots,w_{m}\}
-$$
-*não* é uma base de $U$. Pela definição anterior de base, um ou mais desses vetores pode ser escrito como uma combinação linear dos demais. Reordenando os vetores, iremos supor que o *vetor impostor* é $w_{m}$. Logo, existem números reais $a_{1},\dots,a_{m-1}$ tais que
-$$
+```
+
+*Não* é uma base de $U$. Pela definição anterior de base, um ou mais desses vetores pode ser escrito como uma combinação linear dos demais. Reordenando os vetores, iremos supor que o *vetor impostor* é $w_{m}$. Logo, existem números reais $a_{1},\dots,a_{m-1}$ tais que
+
+```math
 w_{m}=a_{1}w_{1}+\dots+a_{m-1}w_{m-1}.
-$$
+```
+
 Podemos reformular isso da seguinte forma
-$$
+
+```math
 a_{1}w_{1}+\dots+a_{m-1}w_{m-1}-w_{m}=0.
-$$
+```
+
 Portanto, deduzimos que existe uma combinação linear dos vetores pertencentes ao conjunto $G$ que resulte em 0 *sem que todos os coeficientes da combinação sejam nulos*. Um conjunto de vetores com essa propriedade é dito **linearmente dependente**.
 
 Por outro lado, um conjunto de vetores é considerado **linearmente independente** quando nenhum dos vetores desse conjunto pode ser expresso como uma combinação linear dos demais.
@@ -28,7 +34,7 @@ Para melhor entendermos a relação entre base, subespaço e a dimensão $\Bbb{R
 
 ## Dimensão
 
-> $\textit{Definição de Dimensão.}$ *Refere-se ao número de vetores independentes necessários para formar um espaço vetorial ou a quantidade de direções distintas que um espaço pode se estender*.
+> **Dimensão**. *Refere-se ao número de vetores independentes necessários para formar um espaço vetorial ou a quantidade de direções distintas que um espaço pode se estender*.
 
 $\textup{Teorema.}$ *Se $U$ é um subespaço do $\Bbb{R}^{n}$, então*
 
