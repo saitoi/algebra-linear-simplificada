@@ -25,8 +25,6 @@ Podemos determinar os autovetores e autovalores associados a cada um dos princip
 3. **Reflexão.** Possui um resultado semelhante, isto é, os vetores pertencentes ao espelho são autovetores associados a um, enquanto os vetores ortogonais ao espelho são autovetores associados a $-1$.
 4. **Cisalhamento.** Suponha o cisalhamento $S$ que deixa fixo os vetores múltiplos de $e_{1}$ e move $e_{2}$ para $e_{2}+e_{1}c$, para algum real não nulo $c$. Nesse sentido, os vetores múltiplos a $e_{1}$ são autovetores associados a um, não havendo outros autovetores possíveis em função da inclinação de $e_{2}$. A prova dessa proposição se encontra na [[Apostila Atualizada Álgebra Linear - Collier.pdf|apostila do Collier]].
 
-Para substituir todas as ocorrências de `mycolv` por `\begin{bmatrix}#1\end{bmatrix}`, você apenas precisa trocar o comando personalizado `\mycolv{conteúdo}` pelo equivalente LaTeX para matrizes. Aqui está seu texto modificado:
-
 ## Calculando Autovetores e Autovalores
 
 Seja $T$ um operador linear e sua matriz na base canônica representada por:
