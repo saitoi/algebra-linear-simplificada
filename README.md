@@ -27,49 +27,51 @@ Para um estudo aprofundado, recomendamos as seguintes referências:
 
 ```zsh
 .
-├── Algoritmo de Gram-Schmidt.md
 ├── Apostila
 │   └── Apostila Atualizada Álgebra Linear - Collier.pdf
-├── Autovalores e Autovetores.md
-├── Conceitos Gerais
-│   └── Vetores.md
+├── Conceitos Fundamentais
+│   ├── Conceitos Gerais
+│   │   └── Vetores.md
+│   └── Operações com Vetores
+│       ├── Operação Básicas com Vetores.md
+│       ├── Produto Interno.md
+│       ├── Produto Vetorial.md
+│       └── Transformações Lineares.md
 ├── Matrizes
 │   ├── Determinante.md
 │   ├── Matriz Inversa.md
 │   ├── Multiplicação de Matrizes.md
 │   └── Tipos de Matrizes.md
-├── Miscelânea
-│   ├── Base Ortonormal.md
-│   ├── Bases e Dimensão.md
-│   ├── Decomposição QR.md
-│   ├── Diagonalização.md
-│   ├── Eliminação Gauss Jordan.md
-│   ├── Eliminação Gaussiana e LU.md
-│   ├── Erro Computacional.md
-│   ├── Geradores.md
-│   ├── Ortogonalização.md
-│   ├── Posto.md
-│   ├── Resolução Questão Aleatória.md
-│   ├── Sistema Linear Homogêneo.md
-│   ├── Subespaços novo.md
-│   ├── Subespaços.md
-│   └── Tabela de Proposições.md
-├── Operações
-│   ├── Operação Básicas com Vetores.md
-│   ├── Produto Interno.md
-│   ├── Produto Vetorial.md
-│   └── Transformações Lineares.md
 ├── Operadores Lineares
 │   ├── Cisalhamento.md
 │   ├── Projeção.md
 │   ├── Reflexão.md
 │   └── Rotação.md
 ├── README.md
-├── Teorema Espectral
-│   ├── Métodos de Potência.md
-│   ├── Mudança de Base de Operadores.md
-│   ├── Mudança de Base de Vetores.md
-│   └── Teorema Espectral.md
+├── Teoremas e Métodos
+│   ├── Algoritmo de Gram-Schmidt.md
+│   ├── Autovalores e Autovetores.md
+│   ├── Miscelânea
+│   │   ├── Base Ortonormal.md
+│   │   ├── Bases e Dimensão.md
+│   │   ├── Decomposição QR.md
+│   │   ├── Diagonalização.md
+│   │   ├── Eliminação Gauss Jordan.md
+│   │   ├── Eliminação Gaussiana e LU.md
+│   │   ├── Erro Computacional.md
+│   │   ├── Geradores.md
+│   │   ├── Ortogonalização.md
+│   │   ├── Posto.md
+│   │   ├── Resolução Questão Aleatória.md
+│   │   ├── Sistema Linear Homogêneo.md
+│   │   ├── Subespaços novo.md
+│   │   ├── Subespaços.md
+│   │   └── Tabela de Proposições.md
+│   └── Teorema Espectral
+│       ├── Métodos de Potência.md
+│       ├── Mudança de Base de Operadores.md
+│       ├── Mudança de Base de Vetores.md
+│       └── Teorema Espectral.md
 └── Trabalhos
     ├── Estudo Dirigido 1.html
     ├── Estudo Dirigido 1.md
