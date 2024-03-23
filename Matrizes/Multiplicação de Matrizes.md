@@ -1,4 +1,3 @@
-$\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Multiplicação de Matrizes
 
 > **Definição.** *Operação matemática que combina duas matrizes para produzir uma terceira, dada algumas compatibilidades.*
