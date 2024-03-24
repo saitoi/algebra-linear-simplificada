@@ -36,7 +36,7 @@ Assim sendo, obtemos uma matriz de rotação com ângulo $(\theta+\omega)$ que c
 
 1. $(b)$ Tendo feita a multiplicação $A\cdot B$, apenas substituiremos $\theta$ por $\omega$ no resultado acima e obteremos o produto $B\cdot A$.
 
-```
+```math
 \begin{align}
 &=\begin{bmatrix}\cos(\omega)\cdot\cos(\theta)-\sin(\omega)\cdot\sin(\theta) & (-1)[\sin(\theta)\cdot\cos(\omega)+\sin(\omega)\cdot \cos(\theta)] \\ \sin(\omega)\cdot \cos(\theta)+\sin(\theta)\cdot \cos(\omega) & \cos(\theta)\cdot \cos (\omega)-\sin(\omega)\cdot \sin(\theta)\end{bmatrix} \\ \\
 &=\begin{bmatrix}\cos(\omega+\theta) & (-1)\cdot \sin(\omega+\theta) \\ \sin(\omega+\theta) & \cos(\omega+\theta)\end{bmatrix}
@@ -49,7 +49,7 @@ Como podemos ver, o resultado em si obtido é o mesmo fora algumas mudanças de 
 
 1. $(c)$ Tendo em vista que $A\cdot A^{-1}=I$, podemos tentar determinar a matriz inversa $A^{-1}$ da seguinte forma
 
-```
+```math
 \begin{align}
 \begin{bmatrix}\cos(\theta) & -\sin(\theta)\\ \sin(\theta) & \cos(\theta)\end{bmatrix}\begin{bmatrix}a_{11} & a_{12} \\ a_{21}  & a_{22}\end{bmatrix}&=\begin{bmatrix}1 & 0 \\ 0 & 1\end{bmatrix} \\ \\
 a_{11}\cos(\theta)-a_{21}\sin(\theta)&=1\tag{1} \\ \\
@@ -61,7 +61,7 @@ a_{12}\sin(\theta)+a_{22}\cos(\theta)&=1\tag{4}
 
 Podemos observar que nas expressões $(1)$ e $(4)$ só existe uma possibilidade para os coeficientes de $\cos(\theta)$ e $\sin(\theta)$, isto é, eles precisam resultar na identidade trigonométrica $\cos^{2}(\theta)+\sin^{2}(\theta)$. Assim sendo, realizando as seguintes substituições
 
-```
+```math
 \begin{align}
 a_{11}=\cos(\theta)\quad a_{21}=-\sin(\theta), \\ \\
 (\cos(\theta))\cos(\theta)-(-\sin (\theta))\sin(\theta)=1\tag{1} \\ \\
@@ -74,7 +74,7 @@ a_{12}=\sin(\theta)\quad a_{22}=\cos(\theta),\\ \\
 
 Por fim, podemos montar a matriz inversa $A^{-1}$.
 
-```
+```math
 \begin{align}
 A^{-1}=\begin{bmatrix}\cos(\theta) & \sin(\theta)\\ -\sin(\theta) & \cos(\theta)\end{bmatrix}
 \end{align}
@@ -84,7 +84,7 @@ A^{-1}=\begin{bmatrix}\cos(\theta) & \sin(\theta)\\ -\sin(\theta) & \cos(\theta)
 
 1. $(d)$ Para verificar se a matriz $A$ possui colunas ortonormais, calcularemos o produto interno entre suas colunas, considerando cada uma delas como um vetor separadamente. Assim sendo, teremos
 
-```
+```math
 \begin{align}
 &=\begin{bmatrix}\cos(\theta) & \sin(\theta)\end{bmatrix}\begin{bmatrix}-\sin(\theta)\\ \cos(\theta)\end{bmatrix} \\ \\
 &=-\sin(\theta)\cos(\theta)+\sin(\theta)\cos(\theta) \\ \\
@@ -122,41 +122,9 @@ u=(6,12) \dfrac{1}{\sqrt{180}}\to (1,2) \frac{1}{\sqrt{5}}
 Por outro lado, a normal do espelho pode ser obtida invertendo as componentes de $u$ e atribuindo sinal negativo à primeira, tal como abaixo
 
 ```math
-n=(-12,6) \dfrac{1}{\sqrt{180}}\to(-2,1)
-
-
-### $\texttt{Preciso acabar ainda..}$
-
-2. $(a)$ Para determinar o espelho $u$, empregaremos a expressão para a matriz de projeção na expressão $Ex=y$. Assim sendo, suponha as coordenadas unitárias $u=(u_{1},u_{2})$.
-
-```math
-\begin{align}
-\mycolv{2u_{1}^{2}-1 & 2u_{1}u_{2}\\ 2u_{1}u_{2} & 2u_{2}^{2}-1}\mycolv{5\\5}=\mycolv{1\\7} \\ \\
-10u_{1}^{2}
-\end{align}
-```
-
-***
-
-### $\texttt{Forma Alternativa.}$
-
-2. $(a)$ Para determinar o vetor espelho $u$, faremos a soma entre $x$ e seu reflexo $y$ e encontraremos um vetor na reta de $u$. Finalmente, iremos normalizar o resultado obtido e teremos o vetor unitário do espelho.
-
-```math
-x+y=\mycolv{5\\5}+\mycolv{1\\7}=\mycolv{6\\12}
-```
-
-Agora basta normalizarmos $\mycolv{6\\12}$, resultando em
-
-```math
-u=(6,12) \dfrac{1}{\sqrt{ 180 }}\to (1,2) \frac{1}{\sqrt{ 5 }}
-```
-
-Por outro lado, a normal do espelho pode ser obtida invertendo as componentes de $u$ e atribuindo sinal negativo à primeira, tal como abaixo
-
-```math
 n=(-12,6) \dfrac{1}{\sqrt{ 180 }}\to(-2,1) \frac{1}{\sqrt{ 5 }}
 ```
+
 ***
 
 2. $(b)$ Para determinar a matriz de reflexão $E$, basta inserir os valores do vetor unitário $u$ na fórmula geral da matriz de reflexão, tal como abaixo
