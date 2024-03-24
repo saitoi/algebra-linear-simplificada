@@ -27,7 +27,7 @@ $$
 
 ---
 
-4. As possíveis coordenadas de $n$ seriam $n=\begin{bmatrix}-u_2\\u_1\end{bmatrix}$, pois para que o produto escalar resulte em zero basta que os vetores $n,u$ sejam ortogonais entre si.
+4. As possíveis coordenadas de $n$ seriam $n=(-u_{2}, u_{1})$, pois para que o produto escalar resulte em zero basta que os vetores $n,u$ sejam ortogonais entre si.
 
 Chegaremos a essa conclusão da forma descrita abaixo. Inicialmente, suponha que $n=\begin{bmatrix}a\\b\end{bmatrix}$.
 
