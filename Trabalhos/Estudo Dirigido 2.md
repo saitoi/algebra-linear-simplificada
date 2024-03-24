@@ -1,6 +1,6 @@
 # Resolução Sistema Linear
 
-![[Estudo Dirigido 2.pdf]]
+[Estudo Dirigido 2](/Materiais/Estudo%20Dirigido%202.pdf)
 
 # Resolução
 
