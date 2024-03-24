@@ -14,8 +14,8 @@ Como foi visto no [produto interno](/Operações%20com%20Vetores/Produto%20Inter
 
 ```math
 \begin{aligned}
-\textup{Proj}_{u}(v) &= \underbrace{\|v\|\cos \theta}_{\langle v|\hat{u} \rangle} \cdot \frac{u}{\|u\|} \\ \\
-\textup{Proj}_{u}(v) &= \langle v|\hat{u} \rangle \cdot \hat{u}
+&\textup{Proj}_{u}(v) = \underbrace{\|v\|\cos \theta}_{\langle v|\hat{u} \rangle} \cdot \frac{u}{\|u\|} \\ \\
+&\boxed{\textup{Proj}_{u}(v) = \langle v|\hat{u} \rangle \cdot \hat{u}}
 \end{aligned}
 ```
 
