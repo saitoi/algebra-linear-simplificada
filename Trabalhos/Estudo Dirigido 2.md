@@ -4,7 +4,11 @@
 
 # Resolução
 
-1. Dada a seguinte matriz: $A=\begin{bmatrix}1 & 3 & 3 & 2 \\2 & 6 & 9 & 7 \\ -1 & -3 & 3 & 4\end{bmatrix}$
+1. Dada a seguinte matriz:
+
+```math
+A=\begin{bmatrix}1 & 3 & 3 & 2 \\ 2 & 6 & 9 & 7 \\ -1 & -3 & 3 & 4\end{bmatrix}
+```
 
 1. $(a).$ Essa matriz representa uma transformação de $\Bbb{R}^{N}$ a $\Bbb{R}^{M}$, explique $N$ e $M$.
 
