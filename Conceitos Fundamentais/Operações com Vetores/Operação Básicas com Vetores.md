@@ -20,9 +20,11 @@ v+u\coloneqq\begin{bmatrix}x_1\\y_1\\\vdots\\n_1\end{bmatrix}+\begin{bmatrix}x_2
 
 *Vou adicionar a imagem..*
 
-2. **Subtração de vetores.** Operação semelhante à soma de vetores, no entanto o vetor que está sendo subtraído terá seu sentido invertido. Por sua vez, a alteração feita modificará a representação visual de acordo.
+## Subtração
 
-- **Representação algébrica.** A ilustração algébrica da subtração entre vetores é semelhante à soma, porém as componentes são subtraídas (é claro 🥱). Considerando os mesmos vetores $u$ e $v$, aqui está a representação:
+Operação semelhante à soma de vetores, no entanto o vetor que está sendo subtraído terá seu sentido invertido. Por sua vez, a alteração feita modificará a representação visual de acordo.
+
+- **Representação algébrica.** Considerando os mesmos vetores $u$ e $v$, aqui está a representação:
 
 ```math
 v-u\coloneqq\begin{bmatrix}x_1\\y_1\\\vdots\\n_1\end{bmatrix}-\begin{bmatrix}x_2\\y_2\\\vdots\\n_2\end{bmatrix}=\begin{bmatrix}x_1-x_2\\y_1-y_2\\\vdots\\n_1-n_2\end{bmatrix}
@@ -30,8 +32,12 @@ v-u\coloneqq\begin{bmatrix}x_1\\y_1\\\vdots\\n_1\end{bmatrix}-\begin{bmatrix}x_2
 
 - **Visualização.** A representação visual da subtração de vetores pode ser feita da seguinte forma:
 
-Assim como a visualização da soma, a representação da subtração de vetores com o código TikZ requer um ambiente LaTeX compatível para ser visualizada corretamente.
+*Vou colocar uma nova..*
 
-3. **Produto interno.** Já temos uma seção reservada para o [produto interno](Produto%20Interno.md).
+## [Produto Interno](Produto%20Interno.md)
 
-4. **Produto vetorial.** Já temos uma seção reservada para o [produto vetorial](Produto%20Vetorial.md).
+Apenas clique no link..
+
+## [Produto Vetorial](Produto%20Vetorial.md)
+
+Apenas clique no link..
