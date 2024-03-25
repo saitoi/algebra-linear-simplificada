@@ -1,4 +1,4 @@
-# Álgebra Linear Algorítmica
+# Álgebra Linear Algorítmica, Falta formatar alguns arquivos, estou trabalhando nisso :)
 
 ## Introdução
 
