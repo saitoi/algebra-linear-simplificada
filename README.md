@@ -39,6 +39,19 @@ Para um estudo aprofundado, recomendamos as seguintes referências:
 │       ├── Produto Interno.md
 │       ├── Produto Vetorial.md
 │       └── Transformações Lineares.md
+├── Imagens
+│   └── vetor_3x4.png
+├── Materiais
+│   ├── Estudo Dirigido 1 - Resolução
+│   │   ├── pag1.jpg
+│   │   ├── pag2.jpg
+│   │   ├── pag3.jpg
+│   │   ├── pag4.jpg
+│   │   ├── pag5.jpg
+│   │   ├── pag6.jpg
+│   │   ├── pag7.jpg
+│   │   └── pag8.jpg
+│   └── Estudo Dirigido 2.pdf
 ├── Matrizes
 │   ├── Determinante.md
 │   ├── Matriz Inversa.md
@@ -75,7 +88,6 @@ Para um estudo aprofundado, recomendamos as seguintes referências:
 │       ├── Mudança de Base de Vetores.md
 │       └── Teorema Espectral.md
 └── Trabalhos
-    ├── Estudo Dirigido 1.html
     ├── Estudo Dirigido 1.md
     ├── Estudo Dirigido 1.tex
     ├── Estudo Dirigido 2.md
