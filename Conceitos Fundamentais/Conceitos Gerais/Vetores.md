@@ -16,7 +16,11 @@ $$
 
 **Representação gráfica.** Suponha o vetor genérico $\vec{v}$ definido por $v=(3,2)$.
 
-![[vetor_3x4.png|center|]]
+<div align="center">
+
+  ![Vetor_3x4](../../Imagens/vetor_3x4.png)
+
+</div>
 
 **Vetores esparsos.** Vetores ou matrizes cuja maioria de suas entradas são nulas (iguais à zero).
 
