@@ -16,14 +16,7 @@ $$
 
 **Representação gráfica.** Suponha o vetor genérico $\vec{v}$ definido por $v=(3,2)$.
 
-```tikz
-\begin{document}
-\begin{tikzpicture}[scale=1.8]
-    \draw[->, ultra thick] (0, 0) -- (3, 2);
-    \node at (1.5, 1.5) {$\mathbf{\vec{v}}$};
-\end{tikzpicture}
-\end{document}
-```
+![[vetor_3x4.png|center|]]
 
 **Vetores esparsos.** Vetores ou matrizes cuja maioria de suas entradas são nulas (iguais à zero).
 
