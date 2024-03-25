@@ -2,11 +2,11 @@
 
 > **Definição.** Refere-se às operações aritméticas que podem ser realizadas com grandezas vetoriais.
 
-Principais operações que podem ser realizadas com vetores:
+## Soma
 
-1. **Soma de vetores**. A soma de dois vetores gera vetor com magnitude equivalente à soma das magnitudes originais e direção determinada pela junção de suas componentes. Podemos representar a soma de vetores de <u>forma algébrica</u> e <u>visual</u>.
+A soma de dois vetores gera vetor com magnitude equivalente à soma das magnitudes originais e direção determinada pela junção de suas componentes. Podemos representar a soma de vetores de <u>forma algébrica</u> e <u>visual</u>.
 
-- **Representação algébrica.** Podemos tratar da soma de vetores de forma algébrica, isto é, representando a soma das componentes individuais dos vetores. Suponha os vetores $v$ e $u$ ambos pertencentes a $\Bbb{R}^n$, aqui está a interpretação algébrica:
+- **Representação algébrica.** Podemos tratar da soma de vetores de forma algébrica. Suponha os vetores $v$ e $u$ ambos pertencentes a $\Bbb{R}^n$, aqui está a interpretação algébrica:
 
 ```math
 \begin{align*}
@@ -18,7 +18,7 @@ v+u\coloneqq\begin{bmatrix}x_1\\y_1\\\vdots\\n_1\end{bmatrix}+\begin{bmatrix}x_2
 
 - **Visualização.** Por outro lado, podemos tratar da soma de vetores com uma representação visual caso os vetores forem perceptíveis no plano cartesiano, ou seja, $v,u\in\Bbb{R}^n,(\,\forall\;n<4)$. Suponha os vetores $v$ e $w$ pertencentes a $\Bbb{R}^2$, aqui está a visualização da soma deles:
 
-A visualização gráfica anteriormente mencionada com o código TikZ precisa ser interpretada em um ambiente LaTeX que suporte TikZ para visualização, não podendo ser convertida diretamente para texto ou um formato alternativo de visualização aqui.
+*Vou adicionar a imagem..*
 
 2. **Subtração de vetores.** Operação semelhante à soma de vetores, no entanto o vetor que está sendo subtraído terá seu sentido invertido. Por sua vez, a alteração feita modificará a representação visual de acordo.
 
