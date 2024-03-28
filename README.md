@@ -1,4 +1,7 @@
-# Álgebra Linear Algorítmica
+<div align="center">
+    <h1>Álgebra Linear Algorítmica</h1>
+</div>
+
 
 ### Falta formatar alguns arquivos, estou trabalhando nisso :)
 
