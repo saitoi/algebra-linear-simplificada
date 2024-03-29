@@ -1,4 +1,4 @@
-## Compilado das Fórmulas de Operador Linear
+## Compilado das fórmulas de operador linear
 
 ### Projeção
 
